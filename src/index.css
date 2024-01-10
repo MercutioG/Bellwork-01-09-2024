@@ -13,6 +13,37 @@ body {
   background-color: #111;
 }
 
+ul.horizontal, ol.horizontal {
+  background-color: #333;
+  width: fit-content;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: space-around;
+} 
+
+ul.vertical, ol.vertical {
+  background-color: #333;
+  width: fit-content;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  justify-content: space-around;
+} 
+
+.gift-list{
+  background-color: #444;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 1rem;
+  font-size: 1.25rem;
+  width: 10rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
